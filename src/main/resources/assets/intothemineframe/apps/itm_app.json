@@ -1,0 +1,11 @@
+{
+  "name": "Into The Mainframe",
+  "author": "Mastef_Chief",
+  "description": "${desc}",
+  "version": "1.0",
+  "icon": "intothemainframe:textures/app/icon/itm_app.png",
+  "screenshots": [
+    "http://mastefchief.com/mods/deviceai/textures/image1.png",
+    "http://mastefchief.com/mods/deviceai/textures/image2.png"
+  ]
+}
