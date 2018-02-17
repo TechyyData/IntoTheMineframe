@@ -10,5 +10,5 @@ public class Reference {
 
     public static final String CLIENT_PROXY_CLASS = "mastef_chief.intothemineframe.proxy.ClientProxy";
     public static final String SERVER_PROXY_CLASS = "mastef_chief.intothemineframe.proxy.ServerProxy";
-    //cake
+    //cake is good
 }
