@@ -2,6 +2,7 @@ package mastef_chief.intothemineframe;
 
 import com.mrcrayfish.device.api.ApplicationManager;
 import mastef_chief.intothemineframe.app.ITMApp;
+import mastef_chief.intothemineframe.init.RegistrationHandler;
 import mastef_chief.intothemineframe.proxy.CommonProxy;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
@@ -27,6 +28,8 @@ public class Main {
 
     @Mod.EventHandler
     public void Init(FMLInitializationEvent event){
+        RegistrationHandler.init();
+
         ApplicationManager.registerApplication(new ResourceLocation(Reference.MOD_ID, "itm_app"), ITMApp.class);
     }
 
