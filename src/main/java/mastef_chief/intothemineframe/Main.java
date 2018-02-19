@@ -4,6 +4,7 @@ import com.mrcrayfish.device.api.ApplicationManager;
 import mastef_chief.intothemineframe.app.ITMApp;
 import mastef_chief.intothemineframe.init.RegistrationHandler;
 import mastef_chief.intothemineframe.proxy.CommonProxy;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -19,6 +20,8 @@ public class Main {
 
     @Mod.Instance
     public static Main instance;
+
+    public static final CreativeTabs ITMTab = new ITMTab("ITMTab");
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
