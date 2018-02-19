@@ -1,1 +1,3 @@
-app.intothemainframe.itm_app.desc=Teleport to the mainframe
+app.intothemainframe.itm_app.desc=Teleport into the Mineframe
+
+itemGroup.ITMTab=Into The Mineframe
